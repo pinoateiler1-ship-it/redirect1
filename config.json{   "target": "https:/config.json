@@ -1,5 +1,5 @@
 
 
 {
-  "target": "https://google.com"
+  "target": "https://api.whatsapp.com/send/?phone=%2B35795672780&text&type=phone_number&app_absent=0"
 }
