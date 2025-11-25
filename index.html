@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    fetch("config.json")
+      .then(response => response.json())
+      .then(data => {
+        window.location.href = data.target;
+      });
+  </script>
+</head>
+<body>
+  Yönlendiriliyorsunuz...
+</body>
+</html>
